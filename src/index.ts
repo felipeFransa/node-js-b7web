@@ -1,4 +1,8 @@
-let nome: string = 'Felipe';
-let idade: number = 26;
+import { multiplicar, somar, subtrair } from './Matematica'
 
-console.log(`Meu nome é ${nome} e eu tenho ${idade} anos`)
+let n1: number = 25;
+let n2: number = 30;
+
+console.log(`Multiplica: ${multiplicar(n1, n2)}`)
+console.log(`Somar ${somar(n1, n2)}`)
+console.log(`Subtrair: ${subtrair(n1, n2)}`)
